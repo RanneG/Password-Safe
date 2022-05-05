@@ -1,7 +1,7 @@
 ﻿using System;  
 using System.Text;
 using System.Collections.Generic;
-  
+
 namespace ConsoleApp7  
 {  
   class personalAccount
@@ -41,10 +41,8 @@ namespace ConsoleApp7
       List<personalAccount> accountList = new List<personalAccount>();
 
       void viewPersonalAccounts(){
-        if(accountList != null){
-          Console.WriteLine($"{accountList}");
-        } else {
-          Console.WriteLine("it empty");
+        for(int i=0; i<accountList.Count;i++){
+          Console.WriteLine(accountList[i]);
         }
       }
 
