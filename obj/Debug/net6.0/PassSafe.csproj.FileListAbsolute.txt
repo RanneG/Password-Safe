@@ -1,0 +1,15 @@
+C:\Users\Dell User\Projects\PassSafe\bin\Debug\net6.0\PassSafe.exe
+C:\Users\Dell User\Projects\PassSafe\bin\Debug\net6.0\PassSafe.deps.json
+C:\Users\Dell User\Projects\PassSafe\bin\Debug\net6.0\PassSafe.runtimeconfig.json
+C:\Users\Dell User\Projects\PassSafe\bin\Debug\net6.0\PassSafe.dll
+C:\Users\Dell User\Projects\PassSafe\bin\Debug\net6.0\PassSafe.pdb
+C:\Users\Dell User\Projects\PassSafe\obj\Debug\net6.0\PassSafe.csproj.AssemblyReference.cache
+C:\Users\Dell User\Projects\PassSafe\obj\Debug\net6.0\PassSafe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell User\Projects\PassSafe\obj\Debug\net6.0\PassSafe.AssemblyInfoInputs.cache
+C:\Users\Dell User\Projects\PassSafe\obj\Debug\net6.0\PassSafe.AssemblyInfo.cs
+C:\Users\Dell User\Projects\PassSafe\obj\Debug\net6.0\PassSafe.csproj.CoreCompileInputs.cache
+C:\Users\Dell User\Projects\PassSafe\obj\Debug\net6.0\PassSafe.dll
+C:\Users\Dell User\Projects\PassSafe\obj\Debug\net6.0\refint\PassSafe.dll
+C:\Users\Dell User\Projects\PassSafe\obj\Debug\net6.0\PassSafe.pdb
+C:\Users\Dell User\Projects\PassSafe\obj\Debug\net6.0\PassSafe.genruntimeconfig.cache
+C:\Users\Dell User\Projects\PassSafe\obj\Debug\net6.0\ref\PassSafe.dll
