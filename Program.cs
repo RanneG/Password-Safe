@@ -41,7 +41,7 @@ namespace ConsoleApp7
       List<personalAccount> accountList = new List<personalAccount>();
 
       void viewPersonalAccounts(){
-        for(int i=0; i<accountList.Count;i++){
+        for(int i=0;i<accountList.Count;i++){
           Console.WriteLine(accountList[i]);
         }
       }
@@ -55,6 +55,7 @@ namespace ConsoleApp7
 
         accountList.Add(new personalAccount($"{newAccount}",$"{newPassword}"));
         Console.WriteLine("Added new account details!");
+        viewPersonalAccounts();
       }
 
       void printOptions(){
@@ -67,10 +68,10 @@ namespace ConsoleApp7
         if(userChoice == "1"){
           Console.WriteLine("Here are you stored accounts...");
           viewPersonalAccounts();
-        } else if(userChoice == "2"){
+        }else if(userChoice == "2"){
           Console.WriteLine("Creating new account...");
           addNewAccount();
-        } else {
+        }else{
           Console.WriteLine("Press any key to exit...");
         }
       }  
