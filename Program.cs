@@ -58,10 +58,17 @@ namespace ConsoleApp7
         viewPersonalAccounts();
       }
 
+      void generateRandomPassword(){
+        var generator = new RandomGenerator();
+        var randomPassword = generator.RandomPassword();  
+        Console.WriteLine($"Random string of 6 chars is {randomPassword}");  
+      }
+
       void printOptions(){
         Console.WriteLine("Please select one of the following options:");
-        Console.WriteLine("1. Peronal Accounts");
+        Console.WriteLine("1. Peronal accounts");
         Console.WriteLine("2. Add new account");
+        Console.WriteLine("3. Generate new password");
 
         string userChoice = Console.ReadLine().ToString();
 
@@ -71,6 +78,9 @@ namespace ConsoleApp7
         }else if(userChoice == "2"){
           Console.WriteLine("Creating new account...");
           addNewAccount();
+        }else if(userChoice == "3"){
+          Console.WriteLine("Generating a new password...");
+          generateRandomPassword();
         }else{
           Console.WriteLine("Press any key to exit...");
         }
@@ -80,8 +90,6 @@ namespace ConsoleApp7
     }  
   }
   
-
-
   //Creates random passwords
   public class RandomGenerator  
   {  
